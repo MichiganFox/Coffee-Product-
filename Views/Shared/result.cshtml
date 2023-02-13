@@ -1,0 +1,17 @@
+﻿@model User
+
+
+
+<h1>Thank you @Model.name @Model.last for submitting your registration form. </h1>
+<p>You can be contacted at @Model.email</p>
+
+
+@{
+    if (Model.milk)
+    {
+        <p>We will prepare your dirnks with fresh 2% Milk!</p>
+        //putting in HTML into C code!! lots of possibilites
+    }
+}
+
+<p>Would you like to see menu and place an order?  <a href="https://localhost:7005/Home/ProductIndex"> CLICK HERE</a>.</p>

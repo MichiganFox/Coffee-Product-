@@ -2,9 +2,16 @@
 {
     public class User
     {
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public string emailAddress { get; set; }
+        public string name { get; set; }
+        public string last { get; set; }
+        public string email { get; set; }
         public string password { get; set; }
+
+        public bool milk { get; set; }
+
+        public string water { get; set; }
+
+        public string coffee { get; set; }
+        public string hotchocolate { get; set; }
     }
 }

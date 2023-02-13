@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\earle\\source\\repos\\Coffee\\Coffee\\Coffee.csproj": {}
+    "C:\\Users\\earle\\source\\repos\\GC Folder\\GC Course Work\\HTML\\Coffee\\Coffee\\Coffee.csproj": {}
   },
   "projects": {
-    "C:\\Users\\earle\\source\\repos\\Coffee\\Coffee\\Coffee.csproj": {
+    "C:\\Users\\earle\\source\\repos\\GC Folder\\GC Course Work\\HTML\\Coffee\\Coffee\\Coffee.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\earle\\source\\repos\\Coffee\\Coffee\\Coffee.csproj",
+        "projectUniqueName": "C:\\Users\\earle\\source\\repos\\GC Folder\\GC Course Work\\HTML\\Coffee\\Coffee\\Coffee.csproj",
         "projectName": "Coffee",
-        "projectPath": "C:\\Users\\earle\\source\\repos\\Coffee\\Coffee\\Coffee.csproj",
+        "projectPath": "C:\\Users\\earle\\source\\repos\\GC Folder\\GC Course Work\\HTML\\Coffee\\Coffee\\Coffee.csproj",
         "packagesPath": "C:\\Users\\earle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\earle\\source\\repos\\Coffee\\Coffee\\obj\\",
+        "outputPath": "C:\\Users\\earle\\source\\repos\\GC Folder\\GC Course Work\\HTML\\Coffee\\Coffee\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\earle\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -38,6 +38,11 @@ namespace Coffee.Controllers
             return View();
         }
 
+        public IActionResult ProductIndex(User P)
+        {
+            return View(P);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
